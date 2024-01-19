@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inelys | ChatWars Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #102;
+            color: #fffa;
+            font-size: 16pt;
+            font-family: 'Roboto', Helvetica, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+
+            color: #fffc;
+        }
+
+        .dark,
+        .dark>* {
+            background: #102;
+            color: #fffa;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            width: fit-content;
+            height: fit-content;
+            overflow: hidden;
+            aspect-ratio: 1;
+            outline: 4px solid #a0ee;
+            outline-offset: 4px;
+        }
+
+        .stats-card {
+            font-weight: 700;
+        }
+
+        .stats-card>p {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+
+        #alias {
+            display: block;
+            margin-top: 1rem;
+            background: linear-gradient(to bottom right, #5ef, #a0f);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+
+        .text-lg {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body class="dark">
+    <main>
+        <div class="avatar" style="margin-top: 4rem;">
+            <img src="public/img/avatar-1.webp" width="180" />
+        </div>
+        <strong id="alias">Inelys</strong>
+        <div class="stats-card">
+            <p  style="color: rgb(79, 194, 155)"><span class="text-lg" >🐉</span> Dragonscale Castle</p>
+            <p><span class="text-lg">📦</span> Collector </p>
+            <p><span class="text-lg">🏹<sup style="font-size: .4em;position: absolute;">70</sup></span> Ranger </p>
+            <p><span class="text-lg">🏅</span> Lvl 81 </p>
+            <div style="display:flex;gap:20px;">
+                <span style="color:#F65">❤️ 1545</span>
+                <span style="color: #9c3;">🔋 27</span>
+                <span style="color: #eb7;">⚔️ 696</span>
+                <span style="color: #0ac;">🛡️ 699</span>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
